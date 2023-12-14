@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --red: #e15b5c;
+  --black: #040404;
+  --gray: #cecece;
+  --roboto: "roboto";
+  --Inter: "inter";
+}
+.header {
+  display: flex;
+  justify-content: space-around;
+  border: 0.3rem #e0e0e0 solid;
+  margin-top: -2px;
+}
+.logo-chc {
+  margin-top: -2rem;
+  margin-bottom: -2rem;
+}
+
+.logo {
+  height: 10rem;
+  width: 10rem;
+}
+.c-b-f-g {
+  font-family: var(--Inter);
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  gap: 2rem;
+  margin-top: 2.5rem;
+}
+.gs {
+  margin-top: -0.8rem;
+  height: 2.7rem;
+  width: 10rem;
+  color: white;
+  background-color: var(--red);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5rem;
+}
