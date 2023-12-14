@@ -97,3 +97,48 @@
 .userbody-form {
   width: 489px;
 }
+.userbody-form_user {
+  font-family: var(--roboto);
+  font-size: 40px;
+  font-weight: 600;
+}
+.userbody-form_mail_pw {
+  font-family: var(--roboto);
+  font-size: 20px;
+  font-weight: 400;
+}
+.userbody-form_email_pw {
+  width: 489px;
+  height: 54px;
+  border-radius: 10px;
+  border: 1px solid var(--gray);
+  display: flex;
+  gap: 6.5rem;
+  align-items: center;
+  padding-left: 10px;
+}
+.userbody-form_email_pw_inp {
+  width: 311px;
+  height: 33px;
+  border: none;
+  font-family: var(--roboto);
+  font-size: 20px;
+  font-weight: 400;
+}
+.userbody-form_keepbox {
+  display: flex;
+}
+.userbody-form_checkbox {
+  width: 33px;
+  height: 33px;
+  border-radius: 50%;
+}
+.userbody-form_keep {
+  font-family: var(--roboto);
+  font-size: 20px;
+  font-weight: 400;
+}
+.link {
+  height: 40px;
+  width: 40px;
+}
