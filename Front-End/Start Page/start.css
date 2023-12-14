@@ -17,13 +17,13 @@
   margin-top: -2px;
 }
 .logo-chc {
-  margin-top: -2rem;
-  margin-bottom: -2rem;
+  margin-top: -3rem;
+  margin-bottom: -3rem;
 }
 
 .logo {
-  height: 10rem;
-  width: 10rem;
+  height: 13rem;
+  width: 13rem;
 }
 .c-b-f-g {
   font-family: var(--Inter);
@@ -31,7 +31,7 @@
   font-weight: 500;
   display: flex;
   gap: 2rem;
-  margin-top: 2.5rem;
+  margin-top: 2.6rem;
 }
 .gs {
   margin-top: -0.8rem;
@@ -43,4 +43,93 @@
   justify-content: center;
   align-items: center;
   border-radius: 5rem;
+}
+.body-first {
+  background-color: rgba(226, 168, 168, 0.2);
+  height: 346px;
+}
+.para {
+  margin-left: 10rem;
+  padding-top: 4rem;
+  width: 578px;
+  height: 188px;
+}
+.para-journey {
+  color: #000;
+  font-family: Inria Serif;
+  font-size: 50px;
+  font-weight: 400;
+}
+.para-chc {
+  color: #c11c1c;
+  font-family: Inria Serif;
+  font-size: 50px;
+  font-weight: 400;
+}
+.body-image {
+  display: flex;
+  flex-direction: column;
+  width: 39px;
+  height: 39px;
+  margin-left: 900px;
+  margin-top: -10rem;
+  gap: 2rem;
+}
+.body-kit-image {
+  margin-top: -3rem;
+  margin-left: 1050px;
+  width: 276px;
+  height: 255px;
+}
+.body-last {
+  background-color: rgba(174, 160, 123, 0.2);
+  height: 278px;
+}
+.os {
+  color: #000;
+  font-family: var(--Inter);
+  font-size: 30px;
+  font-weight: 500;
+  margin-left: 700px;
+}
+.body-last-boxes {
+  margin-left: 450px;
+  margin-top: 40px;
+  gap: 4rem;
+  display: flex;
+}
+.boxes-first {
+  width: 305px;
+  height: 192px;
+  background-color: #ffffffcc;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+.boxes-second {
+  width: 305px;
+  height: 192px;
+  background-color: #ffffffcc;
+  border-radius: 1rem;
+}
+.boxes-first-one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+.boxes-first-one-para {
+  color: #000;
+  font-family: var(--Inter);
+  font-size: 25px;
+  font-weight: 500;
+  width: 133px;
+  height: 43px;
+}
+.boxes-first-para {
+  display: flex;
+  margin-left: 1rem;
 }
