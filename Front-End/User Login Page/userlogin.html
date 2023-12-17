@@ -64,38 +64,37 @@
           </div>
         </div>
         <div class="userbody-form">
-          <p class="userbody-form_user">User Login</p>
-          <p class="userbody-form_mail_pw">Phone/Email Address</p>
-          <div class="userbody-form_email_pw">
-            <input
-              type="text"
-              placeholder="Phone/Email"
-              class="userbody-form_email_pw_inp"
-            />
-            <img src="./assets/mail.jpg" alt="Mail Logo" />
-          </div>
-          <p class="userbody-form_mail_pw">Password</p>
-          <div class="userbody-form_email_pw">
-            <input
-              type="text"
-              placeholder="Password"
-              class="userbody-form_email_pw_inp"
-            />
-            <img src="./assets/lock.jpg" alt="lock logo" />
-          </div>
-          <div class="userbody-form_keepfor">
-            <div class="userbody-form_keepbox">
-              <input type="checkbox" class="userbody-form_checkbox" />
-
-              <p class="userbody-form_keep">Keep me Logged in</p>
+          <form id="loginForm">
+            <p class="userbody-form_user">User Login</p>
+            <p class="userbody-form_mail_pw">Phone/Email Address</p>
+            <div class="userbody-form_email_pw">
+              <input
+                      type="text"
+                      placeholder="Phone/Email"
+                      class="userbody-form_email_pw_inp"
+                      name="username" />
+              <img src="./assets/mail.jpg" alt="Mail Logo" />
             </div>
-            <p class="userbody-form_forget">Forget Password?</p>
-          </div>
-          <div class="userbody-form_login">Log In</div>
+            <p class="userbody-form_mail_pw">Password</p>
+            <div class="userbody-form_email_pw">
+              <input
+                      type="password"
+                      placeholder="Password"
+                      class="userbody-form_email_pw_inp"
+                      name="password" />
+              <img src="./assets/lock.jpg" alt="lock logo" />
+            </div>
+            <div class="userbody-form_keepfor">
+              <div class="userbody-form_keepbox">
+                <input type="checkbox" class="userbody-form_checkbox" name="keepLoggedIn" />
+                <p class="userbody-form_keep">Keep me Logged in</p>
+              </div>
+              <p class="userbody-form_forget">Forget Password?</p>
+            </div>
+            <div class="userbody-form_login" onclick="submitLoginForm()">Log In</div>
+          </form>
           <div class="userbody-form_link">
-            <img src="./assets/google.jpg" alt="Google Logo" class="link" />
-            <img src="./assets/facebook.jpg" alt="Facebook Logo" class="link" />
-            <img src="./assets/insta.jpg" alt="Instagram Logo" class="link" />
+            <!-- ... social media icons ... -->
           </div>
           <div class="userbody-form_footer">
             <p class="userbody-form_footer_reg">Register as a User?</p>
@@ -103,5 +102,6 @@
         </div>
       </div>
     </main>
+    <script src="login.js"></script>
   </body>
 </html>

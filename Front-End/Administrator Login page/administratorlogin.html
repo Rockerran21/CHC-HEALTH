@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./administratorlogin.css" />
-    <title>User Log In</title>
+    <title>Administrator Log In</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;1,300&family=Roboto:wght@300;400&family=Skranji&display=swap"
       rel="stylesheet"
@@ -64,34 +64,37 @@
           </div>
         </div>
         <div class="userbody-form">
-          <p class="userbody-form_user">Administrator Login</p>
-          <p class="userbody-form_mail_pw">Phone/Email Address</p>
-          <div class="userbody-form_email_pw">
-            <input
-              type="text"
-              placeholder="Phone/Email"
-              class="userbody-form_email_pw_inp"
-            />
-            <img src="./assets/mail.jpg" alt="Mail Logo" />
-          </div>
-          <p class="userbody-form_mail_pw">Password</p>
-          <div class="userbody-form_email_pw">
-            <input
-              type="text"
-              placeholder="Password"
-              class="userbody-form_email_pw_inp"
-            />
-            <img src="./assets/lock.jpg" alt="lock logo" />
-          </div>
-          <div class="userbody-form_keepfor">
-            <div class="userbody-form_keepbox">
-              <input type="checkbox" class="userbody-form_checkbox" />
-
-              <p class="userbody-form_keep">Keep me Logged in</p>
+          <form id="adminLoginForm">
+            <p class="userbody-form_user">Administrator Login</p>
+            <p class="userbody-form_mail_pw">Phone/Email Address</p>
+            <div class="userbody-form_email_pw">
+              <input
+                      type="text"
+                      placeholder="Phone/Email"
+                      class="userbody-form_email_pw_inp"
+                      name="username"
+              />
+              <img src="./assets/mail.jpg" alt="Mail Logo" />
             </div>
-            <p class="userbody-form_forget">Forget Password?</p>
-          </div>
-          <div class="userbody-form_login">Log In</div>
+            <p class="userbody-form_mail_pw">Password</p>
+            <div class="userbody-form_email_pw">
+              <input
+                      type="password"
+                      placeholder="Password"
+                      class="userbody-form_email_pw_inp"
+                      name="password"
+              />
+              <img src="./assets/lock.jpg" alt="Lock Logo" />
+            </div>
+            <div class="userbody-form_keepfor">
+              <div class="userbody-form_keepbox">
+                <input type="checkbox" class="userbody-form_checkbox" name="keepLoggedIn" />
+                <p class="userbody-form_keep">Keep me Logged in</p>
+              </div>
+              <p class="userbody-form_forget">Forget Password?</p>
+            </div>
+            <button type="submit" class="userbody-form_login">Log In</button>
+          </form>
           <div class="userbody-form_link">
             <img src="./assets/google.jpg" alt="Google Logo" class="link" />
             <img src="./assets/facebook.jpg" alt="Facebook Logo" class="link" />
@@ -103,5 +106,7 @@
         </div>
       </div>
     </main>
+  <script src="admin-login.js"></script>
+
   </body>
 </html>

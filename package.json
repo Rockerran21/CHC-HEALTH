@@ -1,0 +1,23 @@
+{
+  "name": "chc-health",
+  "version": "1.0.0",
+  "description": "Community Health Care App is a groundbreaking platform designed to redefine convenience and compassion in healthcare. Our mission is to ensure no individual or family ever feels alone in their health journey. With two pivotal services, we're setting a new standard for community care:",
+  "main": "errupted care, a beacon for those seeking health support, and a dependable partner in managing healthcare needs. It's where technology meets empathy, ensuring everyone in the community has access to the care they deserve.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rockerran21/CHC-HEALTH.git#main"
+  },
+  "author": "Ranjan Marasini",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Rockerran21/CHC-HEALTH/issues"
+  },
+  "homepage": "https://github.com/Rockerran21/CHC-HEALTH/tree/main#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2"
+  }
+}
