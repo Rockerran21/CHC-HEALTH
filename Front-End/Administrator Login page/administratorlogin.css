@@ -1,0 +1,258 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;1,300&family=Roboto:wght@300&family=Skranji&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --red: #e63a3a;
+  --black: #040404;
+  --gray: #888888;
+  --roboto: "roboto";
+}
+.header {
+  height: 129px;
+  border: 0.3rem #e0e0e0 solid;
+  margin-top: -2px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+}
+.navbar-logo {
+  margin-top: -2rem;
+}
+.logo {
+  width: 197px;
+  height: 197px;
+}
+.navbar-text {
+  font-size: 20px;
+  font-family: var(--roboto);
+  display: flex;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+.navbar-login {
+  width: 136px;
+  height: 46px;
+  color: white;
+  background-color: var(--red);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 16px;
+  margin-top: -0.5rem;
+}
+.userbody {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  gap: 250px;
+}
+.userbody-select {
+  margin-left: 160px;
+}
+.userbody-select_in {
+  font-size: 50px;
+  font-weight: 600;
+  font-family: var(--roboto);
+  margin-top: 2rem;
+}
+.userbody-select_method {
+  color: var(--gray);
+  font-size: 20px;
+  font-weight: 500;
+  font-family: var(--roboto);
+  margin-top: 2rem;
+}
+.userbody-right {
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.userbody-userlog {
+  display: flex;
+  flex-direction: column;
+}
+.userbody-user {
+  width: 169px;
+  height: 199px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px gray solid;
+  border-radius: 20px;
+}
+.userbody-doctor {
+  width: 169px;
+  height: 199px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px gray solid;
+  border-radius: 20px;
+}
+.userbody-admin {
+  width: 169px;
+  height: 199px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px gray solid;
+  border-radius: 20px;
+  background-color: var(--red);
+}
+.iconuser {
+  height: 4rem;
+  width: 4rem;
+}
+.icondoctor {
+  height: 4rem;
+  width: 4rem;
+  margin-left: 10px;
+}
+.iconadmin {
+  height: 4rem;
+  width: 4rem;
+  margin-left: 2.5rem;
+}
+.userbody-right_user {
+  font-size: 22px;
+  font-weight: 500;
+  font-family: var(--roboto);
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+.userbody-right_userlog {
+  font-size: 22px;
+  font-weight: 500;
+  font-family: var(--roboto);
+}
+.userbody-right_userlogdoc {
+  font-size: 22px;
+  font-weight: 500;
+  font-family: var(--roboto);
+  margin-left: 12px;
+}
+.userbody-right_userlogad {
+  font-size: 22px;
+  font-weight: 500;
+  font-family: var(--roboto);
+  margin-left: 2.5rem;
+}
+.userbody-form {
+  width: 489px;
+}
+.userbody-form_user {
+  font-family: var(--roboto);
+  font-size: 40px;
+  font-weight: 600;
+}
+.userbody-form_mail_pw {
+  font-family: var(--roboto);
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 32px;
+}
+.userbody-form_email_pw {
+  width: 489px;
+  height: 54px;
+  border-radius: 10px;
+  border: 1px solid var(--gray);
+  display: flex;
+  gap: 6.5rem;
+  align-items: center;
+  padding-left: 10px;
+  margin-top: 8px;
+}
+.userbody-form_email_pw_inp {
+  width: 311px;
+  height: 33px;
+  border: none;
+  font-family: var(--roboto);
+  font-size: 20px;
+  font-weight: 400;
+  outline: none;
+}
+.userbody-form_keepfor {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+}
+.userbody-form_keepbox {
+  display: flex;
+  gap: 1rem;
+}
+.userbody-form_checkbox {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+input[type="checkbox"] {
+  --checkbox-background: #e63a3a;
+  --checkbox-border: #cecece;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid var(--checkbox-border);
+  border-radius: 4px;
+  outline: none;
+  transition: background-color 0.3s;
+}
+
+input[type="checkbox"]:checked {
+  background-color: var(--checkbox-background);
+  border: 2px solid var(--checkbox-border);
+}
+
+.userbody-form_keep {
+  font-family: var(--roboto);
+  font-size: 20px;
+  font-weight: 400;
+}
+.userbody-form_forget {
+  color: var(--red);
+  font-family: var(--roboto);
+  font-size: 20px;
+  font-weight: 400;
+}
+.userbody-form_login {
+  width: 489px;
+  height: 66px;
+  color: white;
+  background-color: var(--red);
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  font-family: var(--roboto);
+  font-size: 30px;
+  font-weight: 600;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 25px;
+}
+.userbody-form_link {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 16px;
+}
+.userbody-form_footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+.link {
+  height: 40px;
+  width: 40px;
+}
+.userbody-form_footer_reg {
+  font-family: var(--roboto);
+  font-size: 23px;
+  font-weight: 500;
+  margin-top: 1rem;
+}
