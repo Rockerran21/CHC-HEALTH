@@ -34,16 +34,9 @@
   gap: 2rem;
   margin-top: 3rem;
 }
-.navbar-login {
-  width: 136px;
-  height: 46px;
-  color: white;
-  background-color: var(--red);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 16px;
-  margin-top: -0.5rem;
+.navbar-FAQ {
+  color: var(--red);
+  font-weight: 600;
 }
 .userbody {
   margin-top: 2rem;
@@ -255,4 +248,6 @@ input[type="checkbox"]:checked {
   font-size: 23px;
   font-weight: 500;
   margin-top: 1rem;
+  color: var(--red);
+  text-decoration: underline;
 }
