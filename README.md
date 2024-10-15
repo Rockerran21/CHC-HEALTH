@@ -38,6 +38,8 @@ roman.shrestha@forbescollege.edu.np
 
 sagar.chaudhary@forbescollege.edu.np 
 
+atit.shrestha@forbescollege.edu.np
+
 
 
 
