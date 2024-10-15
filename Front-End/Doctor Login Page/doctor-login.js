@@ -1,12 +1,20 @@
 document.addEventListener('DOMContentLoaded', function() {
-    var doctorLoginForm = document.getElementById('doctorLoginForm'); // Make sure this ID matches the form ID in your HTML
+    var doctorLoginForm = document.getElementById('doctorLoginForm');
     doctorLoginForm.addEventListener('submit', function(event) {
-        event.preventDefault(); // Prevent the default form submission
+        event.preventDefault();
 
         var formData = new FormData(this);
-        fetch('http://localhost:3000/doctor-login', { // Make sure this matches your server endpoint for doctor login
+        var jsonData = {};
+        formData.forEach((value, key) => {
+            jsonData[key] = value;
+        });
+
+        fetch('http://localhost:3000/doctor-login', {
             method: 'POST',
-            body: formData
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(jsonData)
         })
             .then(response => {
                 if (!response.ok) {
@@ -16,11 +24,11 @@ document.addEventListener('DOMContentLoaded', function() {
             })
             .then(data => {
                 console.log(data);
-                // You can redirect the doctor to their dashboard or show a success message here
+                // Redirect or show success message
             })
             .catch(error => {
                 console.error('Error:', error);
-                // Handle errors, e.g., show an error message to the doctor
+                // Show error message
             });
     });
 });

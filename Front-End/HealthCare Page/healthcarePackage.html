@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Health Care Page</title>
+    <link rel="stylesheet" href="./healthcarePackage.css" />
+  </head>
+  <body>
+    <main>
+      <section class="header">
+        <div class="navbar">
+          <a href="./../Start Page/start.html"
+            ><img src="./assets/logo.jpg" alt="Logo" class="navbar-logo"
+          /></a>
+          <div class="navbar-search">
+            <input
+              type="text"
+              placeholder="Search for Prescription Medicines"
+              class="navbar-searchbar"
+            />
+            <img
+              src="./assets/search.jpg"
+              alt="Search"
+              class="navbar-searchimg"
+            />
+          </div>
+          <div class="navbar-contact">
+            <img
+              src="./assets/contact.jpg"
+              alt="Contact"
+              class="navbar-contactimg"
+            />
+            <div class="navbar-contact_num">
+              <p>Contact</p>
+              <p>9865231408</p>
+            </div>
+          </div>
+          <img src="./assets/cart.jpg" alt="Cart" class="navbar-cart" />
+          <img src="./assets/user.jpg" alt="User" class="navbar-user" />
+        </div>
+      </section>
+      <form id="healthcareForm">
+        <section class="main-body">
+          <div class="main-body_top">
+            <div class="main-body_right">
+              <p class="main-body_right_are">Are you a New User?</p>
+              <div class="right-check">
+                <div class="right-box">
+                  <input
+                    type="radio"
+                    id="newUserYes"
+                    name="newUser"
+                    value="yes"
+                  />
+                  <label for="newUserYes" class="right-yes">Yes</label>
+                </div>
+                <div class="right-box">
+                  <input
+                    type="radio"
+                    id="newUserNo"
+                    name="newUser"
+                    value="no"
+                  />
+                  <label for="newUserNo" class="right-yes">No</label>
+                </div>
+              </div>
+              <div class="right-body">
+                <div class="right-body_inp">
+                  <input
+                    type="text"
+                    placeholder="Patient Name"
+                    name="patientName"
+                    class="right-body_input"
+                  />
+                  <input
+                    type="text"
+                    placeholder="User Name"
+                    name="userName"
+                    class="right-body_input"
+                  />
+                  <input
+                    type="text"
+                    placeholder="Age"
+                    name="age"
+                    class="right-body_input"
+                  />
+                  <input
+                    type="text"
+                    placeholder="Gender"
+                    name="gender"
+                    class="right-body_input"
+                  />
+
+                  <input
+                    type="text"
+                    placeholder="User Id"
+                    name="userID"
+                    class="right-body_input"
+                  />
+                </div>
+                <div class="right-body_inp">
+                  <input
+                    type="text"
+                    placeholder="Address"
+                    name="address"
+                    class="right-body_input"
+                  />
+                  <input
+                    type="text"
+                    placeholder="Nearest Landmark"
+                    name="nearestLandmark"
+                    class="right-body_input"
+                  />
+                  <input
+                    type="text"
+                    placeholder="Email(Optional)"
+                    name="email"
+                    class="right-body_input"
+                  />
+                  <input
+                    type="text"
+                    placeholder="Phone Number"
+                    name="phoneNumber"
+                    class="right-body_input"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="main-body_left">
+              <img
+                src="./assets/sickness.png"
+                alt="Health Care Image"
+                class="healthcareimg"
+              />
+            </div>
+          </div>
+          <div class="list-medications">
+            <p>Description about Casualty :</p>
+            <textarea class="number-input"></textarea>
+          </div>
+          <div class="body-end">
+            <p class="body-end_cas">Casaulty Level:</p>
+            <div class="body-end-in">
+              <div class="body-end-in-in">
+                <input
+                  class="first-radio"
+                  type="radio"
+                  id="levelMinimal"
+                  name="casualtyLevel"
+                  value="Minimal to Moderate"
+                />
+                <label for="levelMinimal">Normal</label>
+              </div>
+              <div class="body-end-in-in">
+                <input
+                  class="second-radio"
+                  type="radio"
+                  id="levelSignificant"
+                  name="casualtyLevel"
+                  value="Significant"
+                />
+                <label for="levelSignificant">Mild</label>
+              </div>
+              <div class="body-end-in-in">
+                <input
+                  class="third-radio"
+                  type="radio"
+                  id="levelMajor"
+                  name="casualtyLevel"
+                  value="Major"
+                />
+                <label for="levelMajor">Emergency</label>
+              </div>
+            </div>
+          </div>
+          <a href="./../Profile page/profile.html"
+            ><input type="submit" value="Submit" class="submit" />
+          </a>
+        </section>
+      </form>
+    </main>
+
+    <script src="./healthcarePackage.js"></script>
+  </body>
+</html>

@@ -11,6 +11,10 @@
   --gray: #888888;
   --roboto: "roboto";
 }
+a {
+  text-decoration: none;
+  color: #040404;
+}
 .header {
   height: 129px;
   border: 0.3rem #e0e0e0 solid;

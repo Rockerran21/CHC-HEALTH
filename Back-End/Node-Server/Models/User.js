@@ -2,15 +2,14 @@ const mongoose = require('mongoose');
 const bcrypt = require('bcryptjs');
 
 const userSchema = new mongoose.Schema({
+    // Define your schema fields here
     username: { type: String, required: true, unique: true },
     password: { type: String, required: true },
     email: { type: String, required: true, unique: true },
-    age: Number, // Example additional field
-    gender: String // Example additional field
-    // Add other user-specific fields as needed
+    // Other fields can be added here
 });
 
-// Pre-save hook for password hashing
+// Optional: Pre-save hook to hash password
 userSchema.pre('save', async function(next) {
     if (this.isModified('password')) {
         this.password = await bcrypt.hash(this.password, 12);
@@ -18,6 +17,11 @@ userSchema.pre('save', async function(next) {
     next();
 });
 
-const User = mongoose.model('User', userSchema);
+let User;
+if (mongoose.models.User) {
+    User = mongoose.model('User');
+} else {
+    User = mongoose.model('User', userSchema);
+}
 
 module.exports = User;

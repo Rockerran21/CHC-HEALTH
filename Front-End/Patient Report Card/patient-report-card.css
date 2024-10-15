@@ -1,0 +1,245 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --white: #fff;
+  --red: #e63a3a;
+  --gray: #888888;
+  --roboto: "roboto";
+}
+a {
+  text-decoration: none;
+  color: #040404;
+}
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #f6f6f6;
+  border: 1px solid var(--gray);
+}
+.navbar-logo {
+  width: 120px;
+  height: 85px;
+}
+.navbar-search {
+  width: 614px;
+  height: 46px;
+  border-radius: 10px;
+  border: 1px solid var(--gray);
+  background: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar-searchbar {
+  width: 430px;
+  height: 28px;
+  font-family: var(--roboto);
+  font-size: 15px;
+  font-weight: 400;
+  outline: none;
+  border: none;
+}
+.navbar-searchimg {
+  width: 25px;
+  height: 25px;
+}
+.navbar-contact {
+  display: flex;
+  gap: 1rem;
+}
+.navbar-contactimg {
+  width: 36px;
+  height: 36px;
+}
+.navbar-contact_num {
+  font-family: var(--roboto);
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
+  margin: 0.5rem;
+}
+.body-top {
+  display: flex;
+  border: 1px solid var(--gray);
+  border-radius: 10px;
+}
+
+.body-right_top {
+  height: 199px;
+  width: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+  padding-bottom: 1rem;
+}
+.body-right_top_pro {
+  width: 100px;
+  height: 98px;
+  background-color: #f6f6f6;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
+.body-right_topimg {
+  width: 41px;
+  height: 39px;
+}
+.body-right_top_name {
+  display: flex;
+}
+.body-right_top_namesag {
+  font-family: var(--roboto);
+  font-size: 15px;
+  font-weight: 400;
+}
+.body-right_top_namenum {
+  font-family: var(--roboto);
+  font-size: 15px;
+  font-weight: 400;
+}
+.body-right {
+  width: 1318px;
+  display: flex;
+  border-left: 1px solid var(--gray);
+
+  padding-left: 3.3rem;
+  padding-top: 12px;
+  flex-direction: column;
+}
+.name-date {
+  margin-top: 15px;
+  display: flex;
+}
+
+.name-input-fill {
+  width: 520px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #888888;
+  color: #000;
+  padding: 4px;
+  margin-right: 5px;
+}
+.name-input-fill-d {
+  width: 495px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #888888;
+  color: #000;
+  padding: 2px;
+  margin-right: 5px;
+}
+.name-input-fill-e {
+  width: 475px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #888888;
+  color: #000;
+  padding: 4px;
+  margin-right: 5px;
+}
+.number-input {
+  width: 430px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #888888;
+  color: #000;
+  padding: 4px;
+  margin-right: 5px;
+}
+.number-input-N {
+  width: 1140px;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #888888;
+  color: #000;
+  padding: 4px;
+  margin-right: 5px;
+}
+.patient-report-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+input {
+  border: none;
+  outline: none;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+th {
+  background-color: #f2f2f2;
+}
+.body {
+  display: flex;
+  justify-content: space-around;
+  margin: 2rem 0;
+}
+.body-down {
+  margin-bottom: 1.5rem;
+}
+.body-down p {
+  color: #000;
+  font-family: Inter;
+  font-size: 40px;
+  font-weight: 500;
+}
+.body-table {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.body-table table {
+  width: 800px;
+}
+.list-medications {
+  width: 1434px;
+  height: 77px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background: #fff;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+}
+.list-medications p {
+  padding: 3px;
+  width: 138px;
+  height: 30px;
+  color: #000;
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 400;
+  display: inline-block;
+}
+.list-medications textarea {
+  padding: 3px;
+  margin: 4px;
+  resize: none;
+  width: 1380px;
+  height: 68px;
+  border-bottom: 1px;
+  border: none;
+  outline: none;
+}

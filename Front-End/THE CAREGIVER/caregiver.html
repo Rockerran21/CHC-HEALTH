@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Caregiver Form</title>
+    <link rel="stylesheet" href="./caregiver.css" />
+  </head>
+  <body>
+    <main>
+      <div class="header">
+        <div class="navbar">
+          <div class="navbar-logo">
+            <img
+              src="./assets/chc-logo.png"
+              alt="This is CHC logo"
+              class="logo"
+            />
+          </div>
+          <div class="navbar-text">
+            <p>Consult Now</p>
+            <p>Book Appointment</p>
+            <p class="navbar-login">FAQ</p>
+          </div>
+        </div>
+      </div>
+      <section class="hero-div">
+        <div class="top-head">
+          <p class="top-head-p">THE CAREGIVER</p>
+          <p class="top-head-p-p">Report Sheet</p>
+        </div>
+        <div class="mid-head">
+          <div class="mid-head-fill">
+            <label for="text">Patient Name :</label>
+            <input type="text" required />
+          </div>
+          <div class="mid-head-fill-label">
+            <label for="text">Date :</label>
+            <input type="text" required />
+          </div>
+        </div>
+        <div class="table">
+          <div class="table-one">
+            <table class="table-one-t">
+              <tr>
+                <td>Daily Care</td>
+                <td>Grooming</td>
+                <td>Bathing</td>
+                <td>Eating</td>
+                <td>Getting Dressed</td>
+              </tr>
+              <tr>
+                <td>Self</td>
+                <td><input type="text" /></td>
+                <td><input type="text" /></td>
+                <td><input type="text" /></td>
+                <td><input type="text" /></td>
+              </tr>
+              <tr>
+                <td>With Help</td>
+                <td><input type="text" /></td>
+                <td><input type="text" /></td>
+                <td><input type="text" /></td>
+                <td><input type="text" /></td>
+              </tr>
+              <tr>
+                <td>Care Giver</td>
+                <td><input type="text" /></td>
+                <td><input type="text" /></td>
+                <td><input type="text" /></td>
+                <td><input type="text" /></td>
+              </tr>
+            </table>
+          </div>
+          <div class="table-two">
+            <table>
+              <tr>
+                <td>Medication</td>
+                <td>Time</td>
+                <td>Food Consumption</td>
+                <td>Time</td>
+                <td>Drinks</td>
+                <td>Time</td>
+              </tr>
+              <tr>
+                <td><input type="text" /></td>
+                <td><input type="text" /></td>
+                <td>Breakfast</td>
+                <td><input type="text" /></td>
+                <td><input type="text" /></td>
+                <td><input type="text" /></td>
+              </tr>
+              <tr>
+                <td><input type="text" /></td>
+                <td><input type="text" /></td>
+                <td>Mid-Day Snack</td>
+                <td><input type="text" /></td>
+                <td><input type="text" /></td>
+                <td><input type="text" /></td>
+              </tr>
+              <tr>
+                <td><input type="text" /></td>
+                <td><input type="text" /></td>
+                <td>Lunch</td>
+                <td><input type="text" /></td>
+                <td><input type="text" /></td>
+                <td><input type="text" /></td>
+              </tr>
+              <tr>
+                <td><input type="text" /></td>
+                <td><input type="text" /></td>
+                <td>Afternoon snack</td>
+                <td><input type="text" /></td>
+                <td><input type="text" /></td>
+                <td><input type="text" /></td>
+              </tr>
+              <tr>
+                <td><input type="text" /></td>
+                <td><input type="text" /></td>
+                <td>Dinner</td>
+                <td><input type="text" /></td>
+                <td><input type="text" /></td>
+                <td><input type="text" /></td>
+              </tr>
+            </table>
+          </div>
+          <div class="table-three">
+            <table>
+              <tr>
+                <td></td>
+                <td>Morning</td>
+                <td>Mid-Day</td>
+                <td>Night</td>
+              </tr>
+              <tr>
+                <td>Blood Sugar :</td>
+                <td><input type="text" /></td>
+                <td><input type="text" /></td>
+                <td><input type="text" /></td>
+              </tr>
+              <tr>
+                <td>Blood Pressure :</td>
+                <td><input type="text" /></td>
+                <td><input type="text" /></td>
+                <td><input type="text" /></td>
+              </tr>
+              <tr>
+                <td>Oxygen Level :</td>
+                <td><input type="text" /></td>
+                <td><input type="text" /></td>
+                <td><input type="text" /></td>
+              </tr>
+              <tr>
+                <td>Temperature :</td>
+                <td><input type="text" /></td>
+                <td><input type="text" /></td>
+                <td><input type="text" /></td>
+              </tr>
+              <tr>
+                <td>Heat Rate :</td>
+                <td><input type="text" /></td>
+                <td><input type="text" /></td>
+                <td><input type="text" /></td>
+              </tr>
+            </table>
+          </div>
+
+          <div class="notes-container">
+            <label for="notes" class="notes-label">Notes:</label>
+            <textarea id="notes" class="notes-textarea"></textarea>
+          </div>
+          <div class="form-container">
+            <div class="form-section">
+              <label for="phone-calls-visits" class="form-label"
+                >Phone calls & Visits:</label
+              >
+              <textarea
+                id="phone-calls-visits"
+                class="form-textarea"
+              ></textarea>
+            </div>
+            <div class="form-section">
+              <label for="activities" class="form-label-act">Activities:</label>
+              <textarea id="activities" class="form-textarea"></textarea>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>

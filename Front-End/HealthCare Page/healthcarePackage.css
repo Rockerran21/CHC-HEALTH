@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --white: #fff;
+  --red: #e63a3a;
+  --lightpink: #df8181e6;
+  --gray: #888888;
+  --roboto: "roboto";
+}
+a {
+  text-decoration: none;
+  color: #040404;
+}
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #f6f6f6;
+  border: 1px solid var(--gray);
+}
+.navbar-logo {
+  width: 120px;
+  height: 85px;
+}
+.navbar-search {
+  width: 614px;
+  height: 46px;
+  border-radius: 10px;
+  border: 1px solid var(--gray);
+  background: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar-searchbar {
+  width: 430px;
+  height: 28px;
+  font-family: var(--roboto);
+  font-size: 15px;
+  font-weight: 400;
+  outline: none;
+  border: none;
+}
+.navbar-searchimg {
+  width: 25px;
+  height: 25px;
+}
+.navbar-contact {
+  display: flex;
+  gap: 1rem;
+}
+.navbar-contactimg {
+  width: 36px;
+  height: 36px;
+}
+.navbar-contact_num {
+  font-family: var(--roboto);
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+.navbar-cart {
+  width: 40px;
+  height: 40px;
+}
+.navbar-user {
+  width: 36px;
+  height: 36px;
+}
+.main-body_top {
+  /* height: 320px; */
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 4rem 1rem 4rem;
+  background-color: #f4e0e0;
+}
+.main-body_right_are {
+  font-family: var(--roboto);
+  font-size: 25px;
+  font-weight: 500;
+}
+.right-check {
+  display: flex;
+  gap: 4rem;
+  margin-top: 1rem;
+}
+.right-box {
+  display: flex;
+  gap: 1rem;
+}
+.right-yes {
+  font-family: var(--roboto);
+  font-size: 15px;
+  font-weight: 500;
+}
+input[type="checkbox"] {
+  --checkbox-background: #e63a3a;
+  --checkbox-border: #cecece;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid var(--checkbox-border);
+  border-radius: 4px;
+  outline: none;
+  transition: background-color 0.3s;
+}
+
+input[type="checkbox"]:checked {
+  background-color: var(--checkbox-background);
+  border: 2px solid var(--checkbox-border);
+}
+.right-body {
+  display: flex;
+  gap: 2rem;
+  margin-top: 1rem;
+}
+.right-body_inp {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.right-body_input {
+  width: 321px;
+  height: 35px;
+  border-radius: 3px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  color: rgba(0, 0, 0, 0.5);
+  padding-left: 1rem;
+  font-family: Inter;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+}
+.healthcareimg {
+  width: 250px;
+  height: 250px;
+}
+.list-medications {
+  /* width: 1434px; */
+  height: 180px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background: #fff;
+  display: flex;
+  align-items: start;
+  justify-content: start;
+}
+.number-input {
+  width: 430px;
+  border: none;
+  outline: none;
+  /* border-bottom: 2px solid #888888; */
+  color: #000;
+  padding: 4px;
+  margin-right: 5px;
+  /* line-height: 30px; */
+}
+.list-medications p {
+  padding: 3px;
+  width: 225px;
+  height: 30px;
+  color: #000;
+  font-family: Inter;
+  font-size: 17px;
+  font-weight: 400;
+  display: inline-block;
+}
+.list-medications textarea {
+  padding: 3px;
+  margin: 4px;
+  resize: none;
+  width: 1380px;
+  height: 170px;
+  border-bottom: 1px solid #000;
+  border: none;
+  outline: none;
+}
+.body-description {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0 0 4rem;
+}
+.about-description {
+  font-family: var(--roboto);
+  font-size: 20px;
+  font-weight: 400;
+}
+
+.body-end {
+  margin: 1rem 0 0 4rem;
+}
+.body-end-in {
+  margin-top: 12px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+.body-end-in-in {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.body-end input {
+  height: 25px;
+  width: 25px;
+}
+.first-radio {
+  accent-color: #43e053;
+}
+.second-radio {
+  accent-color: #ebd617;
+}
+.third-radio {
+  accent-color: #d91919;
+}
+.body-end_cas {
+  font-family: var(--roboto);
+  font-size: 20px;
+  font-weight: 400;
+}
+.submit {
+  width: 99px;
+  height: 35px;
+  /* margin-left: 75px;
+  margin-top: 1rem; */
+  margin: 1rem 0rem 1rem 4.5rem;
+  border-radius: 3px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  background: rgba(224, 91, 91, 0.7);
+  cursor: pointer;
+}

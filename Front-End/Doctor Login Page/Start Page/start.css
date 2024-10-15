@@ -1,0 +1,372 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --red: #e15b5c;
+  --black: #040404;
+  --gray: #cecece;
+  --roboto: "roboto";
+  --Inter: "inter";
+}
+a {
+  text-decoration: none;
+}
+.header {
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-around;
+  border: 0.3rem #e0e0e0 solid;
+  margin-top: -4px;
+}
+.logo-chc {
+  margin-top: -3rem;
+  margin-bottom: -3rem;
+}
+
+.logo {
+  height: 13rem;
+  width: 13rem;
+}
+.c-b-f-g {
+  font-family: var(--Inter);
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  gap: 2rem;
+  margin-top: 2.6rem;
+}
+.ba {
+  color: #000;
+}
+.gs {
+  margin-top: -0.8rem;
+  height: 2.7rem;
+  width: 10rem;
+  color: white;
+  background-color: var(--red);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5rem;
+}
+.body-first {
+  background-color: rgba(226, 168, 168, 0.2);
+  height: 346px;
+}
+.para {
+  margin-left: 10rem;
+  padding-top: 4rem;
+  width: 578px;
+  height: 188px;
+}
+.para-journey {
+  color: #000;
+  font-family: Inria Serif;
+  font-size: 50px;
+  font-weight: 400;
+}
+.para-chc {
+  color: #c11c1c;
+  font-family: Inria Serif;
+  font-size: 50px;
+  font-weight: 400;
+}
+.body-image {
+  display: flex;
+  flex-direction: column;
+  width: 39px;
+  height: 39px;
+  margin-left: 900px;
+  margin-top: -10rem;
+  gap: 2rem;
+}
+.body-kit-image {
+  margin-top: -3rem;
+  margin-left: 1050px;
+  width: 276px;
+  height: 255px;
+}
+.body-last {
+  background-color: rgba(174, 160, 123, 0.2);
+  height: 278px;
+}
+.os {
+  color: #000;
+  font-family: var(--Inter);
+  font-size: 30px;
+  font-weight: 500;
+  margin-left: 700px;
+}
+.body-last-boxes {
+  margin-left: 450px;
+  margin-top: 40px;
+  gap: 4rem;
+  display: flex;
+}
+.boxes-first {
+  width: 305px;
+  height: 192px;
+  background-color: #ffffffcc;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.boxes-first-one {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}
+.boxes-first-one-para {
+  color: #000;
+  font-family: var(--Inter);
+  font-size: 25px;
+  font-weight: 500;
+  width: 133px;
+  height: 43px;
+}
+.boxes-first-para {
+  display: flex;
+  margin-left: 1rem;
+  color: #000;
+}
+.boxes-second {
+  width: 305px;
+  height: 192px;
+  background-color: #ffffffcc;
+  border-radius: 1rem;
+}
+.benefits-head {
+  margin-left: 100px;
+  margin-top: 94px;
+  color: #000;
+  font-family: Inria Serif;
+  font-size: 50px;
+  font-weight: 400;
+  height: 77px;
+}
+.benefits-body {
+  margin-left: 104px;
+  display: flex;
+}
+.benefits-body-para {
+  width: 731px;
+  color: #000;
+  font-family: Inria Serif;
+  font-size: 23px;
+  font-weight: 400;
+  margin-top: 11px;
+  font-size: 23px;
+}
+.benefits-body-para-list {
+  margin-top: 24px;
+  color: #000;
+  font-family: Inria Serif;
+  font-size: 22px;
+  font-weight: 400;
+  display: flex;
+  gap: 1rem;
+}
+.benefits-body-suggest {
+  margin-top: 1rem;
+  margin-left: 6rem;
+}
+.excellence-page {
+  display: flex;
+  margin-left: 100px;
+  margin-top: 80px;
+}
+
+.excellence-head {
+  width: 578px;
+  height: 77px;
+  color: #000;
+  font-family: Inria Serif;
+  font-size: 50px;
+  font-weight: 400;
+}
+.excellence-para {
+  margin-top: 1rem;
+  width: 476px;
+  height: 120px;
+  color: #000;
+  font-family: Inria Serif;
+  font-size: 23px;
+  font-weight: 400;
+}
+.excellence-img {
+  margin-top: 1rem;
+}
+.boxes {
+  display: flex;
+  gap: 2rem;
+}
+.boxes-last {
+  margin-top: 1.8rem;
+  display: flex;
+  flex-direction: column;
+  width: 290px;
+  padding-left: 2rem;
+  gap: 2rem;
+}
+
+.boxes-last-one {
+  display: flex;
+  flex-direction: column;
+  border: 1px #00000033 solid;
+}
+.boxes-logo {
+  background-color: #e44a4ae5;
+  width: 62px;
+  height: 61px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 1rem;
+  margin-top: 1rem;
+}
+.boxes-box-para {
+  width: 193px;
+  height: 45px;
+  color: #000;
+  font-family: Inria Serif;
+  font-size: 27px;
+  font-weight: 400;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+.boxes-box-para-desc {
+  width: 210px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Inria Serif;
+  font-size: 16px;
+  font-weight: 400;
+
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+.boxes-second-last {
+  display: flex;
+  flex-direction: column;
+  width: 260px;
+  gap: 2rem;
+  margin-top: 6.5rem;
+  margin-bottom: 3rem;
+}
+.boxes-box-para-desc-ba {
+  width: 210px;
+  flex-shrink: 0;
+  color: #000;
+  font-family: Inria Serif;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 2rem;
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+}
+.About-us {
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+
+.column {
+  margin: 0 10px;
+}
+
+.column h3 {
+  margin-bottom: 10px;
+}
+
+.column ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.column ul li {
+  margin-bottom: 5px;
+}
+hr {
+  width: 100%;
+  rotate: 180 "deg";
+}
+.app_download {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.5rem;
+  margin-left: 13.5rem;
+  margin-right: 25rem;
+}
+.pay_menthod {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+.get_it_on_google {
+  width: 215px;
+  height: 60px;
+  border-radius: 11px;
+  margin-left: 1rem;
+}
+.payment-method {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.esewa-pay {
+  width: 124px;
+  height: 35px;
+}
+.khalti {
+  width: 105px;
+  height: 40px;
+}
+.imepay-wallet {
+  width: 80px;
+  height: 38px;
+  border-radius: 3px;
+}
+.cash {
+  width: 92px;
+  height: 50px;
+}
+.footer {
+  background-color: #fff;
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  height: 79px;
+  align-items: center;
+  justify-content: center;
+  gap: 8rem;
+}
+.footer-sec {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.footer-sec-img {
+  width: 30px;
+  height: 30px;
+}
+.footer-sec-para {
+  color: #000;
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 700;
+}

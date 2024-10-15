@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --red: #e15b5c;
+  --black: #040404;
+  --gray: #cecece;
+  --roboto: "roboto";
+  --Inter: "inter";
+}
+a {
+  text-decoration: none;
+  color: #040404;
+}
+.header {
+  background-color: #fff;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: space-around;
+  border: 0.3rem #e0e0e0 solid;
+  margin-top: -4px;
+  z-index: 7;
+}
+.logo-chc {
+  margin-top: -3rem;
+  margin-bottom: -3rem;
+}
+
+.logo {
+  height: 13rem;
+  width: 13rem;
+}
+.c-b-f-g {
+  font-family: var(--Inter);
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  gap: 2rem;
+  margin-top: 2.6rem;
+}
+.gs {
+  margin-top: -0.8rem;
+  height: 2.7rem;
+  width: 10rem;
+  color: white;
+  background-color: var(--red);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5rem;
+}
+
+.blood-bank-head {
+  display: flex;
+  justify-content: space-between;
+  margin: 45px 148px 20px 40px;
+}
+.blood-bank {
+  width: 217px;
+  height: 44px;
+  color: #000;
+  font-family: var(--Inter);
+  font-size: 30px;
+  font-weight: 600;
+}
+.search-section {
+  position: relative;
+  display: flex;
+  width: 312px;
+  height: 44px;
+  border: 1px solid black;
+  border-radius: 6px;
+}
+
+.find-bar {
+  border-radius: 10px;
+  border: 1px #00000099 solid;
+  padding-left: 1rem;
+  padding-right: 5rem;
+  border: none;
+  outline: none;
+}
+.Find-by-Name {
+  background-color: #fff;
+  width: 110px;
+
+  position: absolute;
+  left: 2rem;
+  top: -0.5rem;
+  display: flex;
+  justify-content: center;
+}
+.search {
+  width: 25px;
+  height: 25px;
+  margin-top: 0.5rem;
+}
+.blood-bank-list {
+  margin-left: 45px;
+}
+table {
+  width: 90%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th,
+td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./glucose.css" />
+    <title>Glucose Level Page</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,300;1,300&family=Roboto:wght@300;400&family=Skranji&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main>
+      <div class="header">
+        <div class="navbar">
+          <a href="./../../Start Page/start.html"
+            ><div class="navbar-logo">
+              <img
+                src="./assets/logo.png"
+                alt="This is CHC logo"
+                class="logo"
+              /></div
+          ></a>
+          <div class="navbar-text">
+            <p>Consult Now</p>
+            <a href="./../../Hospital Selection Section/hcs.html"
+              ><p>Book Appointment</p></a
+            >
+            <p class="navbar-login">FAQ</p>
+          </div>
+        </div>
+      </div>
+      <div class="main-body">
+        <div class="body-right">
+          <div class="body-right_top">
+            <div class="top-name">
+              <p class="name">Roman Shrestha</p>
+              <p class="address">Chitwan</p>
+            </div>
+            <div class="age-weight">
+              <div class="numage">
+                <p class="age">Age</p>
+                <p class="number">20</p>
+              </div>
+              <div class="numage">
+                <p class="age">Weight</p>
+                <p class="number">60kg</p>
+              </div>
+            </div>
+            <div class="age-weight">
+              <div class="numage">
+                <p class="age">Height</p>
+                <p class="number">170 cm</p>
+              </div>
+              <div class="numage">
+                <p class="age">Blood</p>
+                <p class="number">B+</p>
+              </div>
+            </div>
+            <div class="profile-img">
+              <img src="./assets/profile.png" alt="Profile" />
+            </div>
+          </div>
+          <div class="body-right_mid">
+            <p class="today">Today</p>
+            <img src="./assets/arrow1.png" alt="ArrowOne" class="arrow" /><img
+              src="./assets/arrow2.png"
+              alt="ArrowTwo"
+              class="arrow"
+            />
+          </div>
+          <div class="body-right-bottom">
+            <div class="bottom-top">
+              <div><img src="./assets/cmc.png" alt="CMC" /></div>
+              <div class="top-cmc">
+                <p class="cmc">Chitwan Medical College (CMC)</p>
+                <p class="cmc-add">Bharatpur-10,Chitwan</p>
+              </div>
+            </div>
+            <hr />
+            <div class="sabsur">
+              <p class="sabita">Sabita Shrestha</p>
+              <p class="surgery">H.O.D Surgery</p>
+            </div>
+            <div class="shedule">Sheduled Appointment</div>
+            <div class="datentime">
+              <div class="numage">
+                <p class="age">Date</p>
+                <p class="number">2023/01/01</p>
+              </div>
+              <div class="numage">
+                <p class="age">Time</p>
+                <p class="number">10:30 AM</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="body-left">
+          <div class="left-top">
+            <div class="top-right">
+              <p class="jan-date">01 Jan 2023</p>
+              <p class="vital">Vital Statistics</p>
+            </div>
+            <div class="top-left">
+              <img src="./assets/arrow1.png" alt="arrowtop" class="arrowtop" />
+            </div>
+          </div>
+          <div class="mid">
+            <div class="left-mid">
+              <img src="./assets/blood.png" alt="Blood Image" />
+              <p class="bgh">Blood Pressure</p>
+              <p>
+                Average Blood Pressure:
+                <span id="avgBloodPressure">130/90</span> mmHg
+              </p>
+            </div>
+            <div class="left-mid_glucose">
+              <img src="./assets/gulcose.png" alt="Gulcose Image" />
+              <p class="bgh">Glucose Level</p>
+              <p>
+                Average Glucose Level: <span id="avgGlucose">89-72</span> mg/dL
+              </p>
+            </div>
+            <div class="left-mid">
+              <img src="./assets/heart.png" alt="Heart Image" />
+              <p class="bgh">Heart Rate</p>
+              <p>Average Heart Rate: <span id="avgHeartRate">95</span> bpm</p>
+            </div>
+          </div>
+
+          <div class="left_pulse">
+            <p class="pulse">Vital Chart</p>
+            <div class="dwmy">
+              <p class="d">D</p>
+              <p class="wmy">W</p>
+              <p class="wmy">M</p>
+              <p class="wmy">Y</p>
+            </div>
+          </div>
+          <div class="body-left_img">
+            <canvas id="glucoseChart" width="50" height="50"></canvas>
+          </div>
+        </div>
+      </div>
+      <section class="footer">
+        <a
+          href="./../../General Ledger Transaction/general-ledger-transaction.html"
+          ><p class="tscp">Transaction Details</p></a
+        >
+        <a href="./../../Support-Us-Login-Page/supportuspage.html"
+          ><p class="tscp">Supports</p></a
+        >
+        <a href="./../../THE CAREGIVER/caregiver.html"
+          ><p class="tscp">Care Giver Report Card</p></a
+        >
+        <a href="./../../Patient Report Card/patient-report-card.html"
+          ><p class="tscp">Patient Report Card</p></a
+        >
+      </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns"></script>
+    <script src="./gulcoseGraph.js"></script>
+    <!-- Your main JS file -->
+  </body>
+</html>

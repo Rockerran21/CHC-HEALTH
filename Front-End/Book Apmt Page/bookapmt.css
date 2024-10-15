@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --red: #e63a3a;
+  --gray: #888888;
+  --white: #fff;
+  --roboto: "roboto";
+}
+a {
+  text-decoration: none;
+  color: #040404;
+}
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #f6f6f6;
+  border: 1px solid var(--gray);
+}
+.navbar-logo {
+  width: 120px;
+  height: 85px;
+}
+.navbar-search {
+  width: 614px;
+  height: 46px;
+  border-radius: 10px;
+  border: 1px solid var(--gray);
+  background: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar-searchbar {
+  width: 430px;
+  height: 28px;
+  font-family: var(--roboto);
+  font-size: 15px;
+  font-weight: 400;
+  outline: none;
+  border: none;
+}
+.navbar-searchimg {
+  width: 25px;
+  height: 25px;
+}
+.navbar-contact {
+  display: flex;
+  gap: 1rem;
+}
+.navbar-contactimg {
+  width: 36px;
+  height: 36px;
+}
+.navbar-contact_num {
+  font-family: var(--roboto);
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+.navbar-cart {
+  width: 40px;
+  height: 40px;
+}
+.navbar-user {
+  width: 36px;
+  height: 36px;
+}
+
+.bookappointment {
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 2rem 0 2rem;
+}
+.bookappointment-form {
+  width: 600px;
+  height: 535px;
+  padding: 2rem 0 0 2rem;
+  box-shadow: 0 2px 5px var(--gray);
+}
+.appointment-book {
+  font-family: var(--roboto);
+  color: var(--red);
+}
+.form-topic {
+  font-size: 18px;
+  font-family: var(--roboto);
+  font-weight: 600;
+  margin-top: 2rem;
+}
+.form-inp {
+  height: 38px;
+  width: 340px;
+  border-radius: 6px;
+  font-size: 15px;
+  font-family: var(--roboto);
+  font-weight: 500;
+  padding: 0 1rem 0 1rem;
+  margin-top: 1rem;
+}
+.DatenTime {
+  display: flex;
+}
+.bookappointment-calender {
+  width: 600px;
+  box-shadow: 0 2px 5px var(--gray);
+  padding: 2rem 0 0 2rem;
+}
+.day {
+  display: flex;
+  flex-direction: column;
+}
+.day {
+  margin: 2rem 1rem 0 0;
+}
+.Date {
+  height: 48px;
+  width: 100px;
+  border-radius: 6px;
+  border: 1px solid var(--gray);
+  padding-top: 3px;
+  text-align: center;
+  background-color: var(--red);
+  cursor: pointer;
+}
+.week-day {
+  font-size: 16px;
+  font-family: var(--roboto);
+  font-weight: 600;
+  color: var(--white);
+}
+.year-date {
+  font-size: 12px;
+  font-family: var(--roboto);
+  padding-top: 8px;
+  color: var(--white);
+}
+.time {
+  margin-top: 2rem;
+}
+.time-cal {
+  height: 48px;
+  width: 100px;
+  border-radius: 6px;
+  border: 1px solid var(--gray);
+  padding-top: 3px;
+  text-align: center;
+  padding-top: 1rem;
+  margin-top: 1rem;
+  background-color: var(--gray);
+  color: var(--white);
+  font-family: var(--roboto);
+  cursor: pointer;
+}
+.time-calmo {
+  height: 48px;
+  width: 100px;
+  border-radius: 6px;
+  border: 1px solid var(--gray);
+  /* padding-top: 3px; */
+  text-align: center;
+  padding-top: 1rem;
+  margin-top: 1rem;
+  background-color: var(--red);
+  color: var(--white);
+  font-family: var(--roboto);
+  cursor: pointer;
+}
+.bookappoinment-end {
+  display: flex;
+  gap: 2rem;
+  margin: 1rem 2rem 0 0;
+  justify-content: end;
+}
+.end-cancel {
+  height: 48px;
+  width: 100px;
+  border-radius: 6px;
+  border: 1px solid var(--gray);
+  padding-top: 1rem;
+  text-align: center;
+  background-color: var(--red);
+  color: var(--white);
+  font-family: var(--roboto);
+  font-weight: 600;
+  cursor: pointer;
+}

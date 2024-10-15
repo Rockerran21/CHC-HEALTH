@@ -11,6 +11,10 @@
   --gray: #888888;
   --roboto: "roboto";
 }
+a {
+  text-decoration: none;
+  color: #040404;
+}
 .header {
   height: 129px;
   border: 0.3rem #e0e0e0 solid;
@@ -117,6 +121,10 @@
   height: 4rem;
   width: 4rem;
   margin-left: 2.5rem;
+}
+.navbar-FAQ {
+  color: var(--red);
+  font-weight: 600;
 }
 .userbody-right_user {
   font-size: 22px;
@@ -255,4 +263,6 @@ input[type="checkbox"]:checked {
   font-size: 23px;
   font-weight: 500;
   margin-top: 1rem;
+  color: var(--red);
+  text-decoration: underline;
 }

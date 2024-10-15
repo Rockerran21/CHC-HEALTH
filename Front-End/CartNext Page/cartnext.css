@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --white: #fff;
+  --red: #e63a3a;
+  --gray: #888888;
+  --roboto: "roboto";
+}
+a {
+  text-decoration: none;
+  color: #040404;
+}
+.navbar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #f6f6f6;
+  border: 1px solid var(--gray);
+}
+.navbar-logo {
+  width: 120px;
+  height: 85px;
+}
+.navbar-search {
+  width: 614px;
+  height: 46px;
+  border-radius: 10px;
+  border: 1px solid var(--gray);
+  background: #fff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navbar-searchbar {
+  width: 430px;
+  height: 28px;
+  font-family: var(--roboto);
+  font-size: 15px;
+  font-weight: 400;
+  outline: none;
+  border: none;
+}
+.navbar-searchimg {
+  width: 25px;
+  height: 25px;
+}
+.navbar-contact {
+  display: flex;
+  gap: 0.8rem;
+}
+.navbar-contactimg {
+  width: 36px;
+  height: 36px;
+}
+.navbar-contact_num {
+  font-family: var(--roboto);
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+.navbar-contact_number {
+  font-family: var(--roboto);
+  font-size: 18px;
+  font-weight: 600;
+}
+.navbar-cart {
+  width: 40px;
+  height: 40px;
+}
+.navbar-user {
+  width: 36px;
+  height: 36px;
+}
+.body {
+  width: 100%;
+  display: flex;
+}
+.body-right {
+  width: 60%;
+  margin: 1rem 0 1rem 3rem;
+}
+.body-right_top {
+  height: 2rem;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 0 2px 5px var(--gray);
+}
+.body-right_top_right {
+  display: flex;
+  padding: 5px 5px 0 5px;
+}
+input[type="checkbox"] {
+  --checkbox-background: #e63a3a;
+  --checkbox-border: #cecece;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid var(--checkbox-border);
+  border-radius: 4px;
+  outline: none;
+  transition: background-color 0.3s;
+}
+
+input[type="checkbox"]:checked {
+  background-color: var(--checkbox-background);
+  border: 2px solid var(--checkbox-border);
+}
+.body-right_top_right_sel {
+  font-size: 14px;
+  font-family: var(--roboto);
+  font-weight: 500;
+  padding: 1px 5px 4px 5px;
+}
+.body-right_top_left {
+  display: flex;
+}
+.body-right_top_leftimg {
+  height: 32px;
+  width: 32px;
+}
+.body-right_top_left_del {
+  color: var(--red);
+  font-size: 14px;
+  font-family: var(--roboto);
+  font-weight: 500;
+  padding: 5px 5px 0 5px;
+}
+.body-right_bottom_one_img {
+  height: 120px;
+  width: 120px;
+}
+.body-right_bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 2rem;
+  padding: 2rem 0 3rem 0;
+  box-shadow: 0 2px 5px var(--gray);
+}
+.body-right_bottom_one {
+  padding-top: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+.body-right_bottom_one_inp {
+  margin: 2rem 0 0 1rem;
+}
+.body-right_bottom_productone {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.body-right_bottom_name {
+  font-size: 14px;
+  font-family: var(--roboto);
+  font-weight: 500;
+}
+.body-right_bottom_product_qty {
+  display: flex;
+  gap: 1.5rem;
+}
+.body-right_bottom_one_pcs {
+  display: flex;
+  gap: 1rem;
+  background-color: var(--gray);
+  height: 25px;
+  width: 120px;
+  border-radius: 15px;
+}
+.body-right_bottom_name_pcs {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: var(--white);
+  margin: 2px 0 2px 4px;
+  padding-left: 7px;
+}
+.body-right_bottom_name1 {
+  color: #f6f6f6;
+  font-size: 14px;
+  font-family: var(--roboto);
+  font-weight: 500;
+  padding-top: 3px;
+}
+.body-right_bottom_name_pcs2 {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  background-color: var(--white);
+  margin: 2px 0 2px 5px;
+  padding-left: 5px;
+}
+hr {
+  color: #f9f9fa;
+}
+.body-left {
+  width: 30%;
+  height: 14rem;
+  margin: 1rem 1rem 0 3rem;
+  box-shadow: 0 2px 5px var(--gray);
+  padding: 1rem 1rem 0 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.body-left_ord {
+  font-size: 16px;
+  font-family: var(--roboto);
+  font-weight: 600;
+}
+.body-left_sel {
+  display: flex;
+  justify-content: space-between;
+}
+.body-left_select {
+  color: var(--gray);
+  font-size: 14px;
+  font-family: var(--roboto);
+  font-weight: 500;
+}
+.body-left_selectrs {
+  font-size: 16px;
+  font-family: var(--roboto);
+  font-weight: 600;
+}
+.body-left_confirm {
+  background-color: var(--red);
+  color: var(--white);
+  height: 3rem;
+  font-size: 16px;
+  font-family: var(--roboto);
+  font-weight: 600;
+  border-radius: 8px;
+  cursor: pointer;
+}
