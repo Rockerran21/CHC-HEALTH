@@ -7,7 +7,7 @@ Medicine Delivery: Understanding the urgency and importance of medication adhere
 Caretaker Assistance: Life can be unpredictable, and there are times when patients need care while their family members are away. Our Caretaker Assistant feature steps in during such times, connecting patients with professional caretakers who provide not just medical attention but also companionship and support, embodying the warmth and care of a close one.
 Community Health Care App is more than just an app; it's a promise of uninterrupted care, a beacon for those seeking health support, and a dependable partner in managing healthcare needs. It's where technology meets empathy, ensuring everyone in the community has access to the care they deserve.
 
-![Community Health Care App Illustration]
+![Community Health Care App Illustration](./CHC-Logo.png)
 
 
 
@@ -19,11 +19,11 @@ Community Health Care App is more than just an app; it's a promise of uninterrup
 
 ## Screenshots
 
-![App Screenshot]
-![App Screenshot]
-![App Screenshot]
-![App Screenshot]
-![App Screenshot](/Users/ranjanmarasini/IdeaProjects/Community-Health-App/Screenshots/Medicine Page.png)
+![App Screenshot](./Screenshots/Login%20Page%20section%20.png)
+![App Screenshot](./Screenshots/Dashboard%20for%20user%20.png)
+![App Screenshot](./Screenshots/Doctor%20Dahsboard%20.png)
+![App Screenshot](./Screenshots/Health%20support.png)
+![App Screenshot](./Screenshots/Home%20Page%20screen%20shot%20.png)
 ![App Screenshot](./Screenshots/Medicine%20Page.png)
 
 
